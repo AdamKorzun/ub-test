@@ -1,0 +1,11 @@
+id: '17391988808430.4411042218854886'
+kind: folder
+name: foo
+nameConfigured: true
+steps: []
+mode: manual
+modeConfigured: false
+parentPageId: '1'
+config:
+  preserveStateOnPageChange: false
+selected: false
