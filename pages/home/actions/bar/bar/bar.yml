@@ -1,9 +1,9 @@
-id: '17391989447110.29573841301221804'
+id: '17391993296030.7564905629236613'
 kind: workflow
-name: foo
+name: bar
 nameConfigured: true
 steps:
-  - id: '17391989471110.5043350160005913'
+  - id: '17391993316120.0275528397395004'
     type: httpRequest
     name: request
     params:
@@ -62,16 +62,16 @@ steps:
 mode: manual
 modeConfigured: false
 parentPageId: '1'
-parentId: '17391988808430.4411042218854886'
+parentId: '17391993233920.23473291215976277'
 config:
   shouldConfirm: false
-  confirmMessage: Are you sure you'd like to proceed with "{{actions.foo.name}}"?
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.bar.name}}"?
   showSuccessToast: false
-  successToast: Action "{{actions.foo.name}}" successfully executed
+  successToast: Action "{{actions.bar.name}}" successfully executed
   successToastDuration: '3000'
   successToastHideByClick: false
   showErrorToast: true
-  errorToast: Action "{{actions.foo.name}}" has failed
+  errorToast: Action "{{actions.bar.name}}" has failed
   errorToastDuration: '3000'
   errorToastHideByClick: false
   delay: '0'
