@@ -1,0 +1,32 @@
+id: '17392707799690.13021937200061728'
+kind: workflow
+name: folder
+nameConfigured: true
+steps:
+  - id: '17392707799690.8304111603696278'
+    type: draft
+    name: newStep
+    params: []
+    level: 0
+    fallthroughError: false
+    isChanged: false
+mode: manual
+modeConfigured: false
+parentPageId: '1'
+parentId: '17392707742200.48003234416844576'
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.folder.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.folder.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.folder.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+selected: true
+configured: false
