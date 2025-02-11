@@ -1,9 +1,9 @@
-id: '17392708908520.8044902815014225'
+id: '17392726332500.7413097482317708'
 kind: workflow
-name: test
+name: fol
 nameConfigured: true
 steps:
-  - id: '17392708908510.5398540049805369'
+  - id: '17392726332500.7634787452090226'
     type: draft
     name: newStep
     params: []
@@ -13,16 +13,16 @@ steps:
 mode: manual
 modeConfigured: false
 parentPageId: '1'
-parentId: '17392708851350.7363217679949563'
+parentId: '17392726253120.29341099681021854'
 config:
   shouldConfirm: false
-  confirmMessage: Are you sure you'd like to proceed with "{{actions.test.name}}"?
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.fol.name}}"?
   showSuccessToast: false
-  successToast: Action "{{actions.test.name}}" successfully executed
+  successToast: Action "{{actions.fol.name}}" successfully executed
   successToastDuration: '3000'
   successToastHideByClick: false
   showErrorToast: true
-  errorToast: Action "{{actions.test.name}}" has failed
+  errorToast: Action "{{actions.fol.name}}" has failed
   errorToastDuration: '3000'
   errorToastHideByClick: false
   delay: '0'
