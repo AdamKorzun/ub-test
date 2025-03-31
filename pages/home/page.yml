@@ -23,4 +23,5 @@ slots:
             name: content
             bindings: {}
             children:
-              - components/form.yml
+              - components/table.yml
+              - components/richTextEditor.yml
