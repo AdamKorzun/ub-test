@@ -22,4 +22,8 @@ slots:
           - id: '2'
             name: content
             bindings: {}
-            children: []
+            children:
+              - components/form.yml
+              - components/metric.yml
+              - components/form2.yml
+              - components/checkbox.yml

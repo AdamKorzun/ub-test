@@ -1,0 +1,41 @@
+id: '17435068887390.6458693699320723'
+definitionId: checkbox
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 44
+      w: 7
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    gridItem:
+      x: 0
+      y: 188
+      w: 24
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: checkbox
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  required:
+    value: true
+    dataValue: 'false'
+    withData: false
+actions: {}
+slots: []
