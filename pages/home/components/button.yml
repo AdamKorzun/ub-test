@@ -5,8 +5,8 @@ styles:
   xl:
     gridItem:
       x: 3
-      y: 20
-      w: 2
+      y: 12
+      w: 12
       h: 9
     flex:
       size:
