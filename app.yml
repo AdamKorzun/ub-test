@@ -2,7 +2,15 @@ metadata:
   favicon: ''
   title: git app
   description: ''
-  breakpoints: []
+  breakpoints:
+    - name: xl
+      width:
+        value: 100
+        unit: '%'
+    - name: xs
+      width:
+        value: 800
+        unit: px
   rendererCachingEnabled: true
   skipDepsComparisonInCompilerCache: false
 appSettings:

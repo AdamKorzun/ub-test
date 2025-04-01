@@ -1,0 +1,37 @@
+id: '17404052382920.5324934071484446'
+definitionId: heading
+parentSlotId: '2'
+styles:
+  xs:
+    gridItem:
+      x: 8
+      y: 1
+      w: 16
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xl:
+    gridItem:
+      x: 0
+      y: 133
+      w: 24
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: heading2
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xs
+  text: Mobile app
+actions: {}
+slots: []

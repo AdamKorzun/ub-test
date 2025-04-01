@@ -1,0 +1,47 @@
+id: '17431801797210.6331096449280773'
+definitionId: button
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 3
+      y: 12
+      w: 2
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    gridItem:
+      x: 0
+      y: 117
+      w: 24
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: button
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  queryParams:
+    withData: false
+    dataValue: ''
+    value:
+      - name: test
+        value: '5'
+  linkInfo:
+    active: internalPath
+    internalPath: '{{routes.home.url}}'
+    externalPath: ''
+actions: {}
+slots: []
